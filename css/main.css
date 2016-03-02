@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header,  menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container {
+    width: 940px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    /*background: rgba(0,0,0,0.2);*/
+}
+
+.header{
+    height: 90px;
+    background: white;
+
+}
+
+.slider{
+    height: 555px;
+    background: gainsboro;
+}
+
+.whatCanWeDo{
+    height: 410px;
+    background: lime;
+}
+
+.whatsHappening{
+    height: 455px;
+    background: black;
+}
+.success{
+    height: 550px;
+    background: yellow;
+}
+
+.footer{
+    height: 320px;
+    background: red;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 20%;
+}
+.menuItem{
+    display: inline;
+    width: 50px;
+
+
+}
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+ul a{
+    font-size: 16px;
+    color: gray;
+    margin: 5px;
+}
+
+
+a:hover {
+    color: aqua ;
+}
+
+
+.logo{
+    /*display: block;*/
+}
+
+.language{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.search{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+.one{
+    width: 141px;
+}
