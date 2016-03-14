@@ -58,12 +58,13 @@ table {
 
 .slider{
     height: 555px;
-    background: gainsboro;
+    /*background: gainsboro;*/
+    background-image: url('../img/slide-bg-complexity.jpg');
 }
 
 .whatCanWeDo{
     height: 410px;
-    background: lime;
+    background: #46a3c9;
 }
 
 .whatsHappening{
